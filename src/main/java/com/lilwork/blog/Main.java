@@ -23,7 +23,7 @@ public class Main {
         dataSourceConfig.setDriverName("com.mysql.cj.jdbc.Driver");
         dataSourceConfig.setUrl("jdbc:mysql://localhost:3306/blogdb?useUnicode=true&characterEncoding=UTF-8");
         dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("root");
+        dataSourceConfig.setPassword("creamsoda");
         autoGenerator.setDataSource(dataSourceConfig);
 
         GlobalConfig globalConfig = new GlobalConfig();
